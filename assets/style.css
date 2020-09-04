@@ -1,0 +1,81 @@
+
+
+.menu-text{
+    text-align: center;
+    margin: 55px;
+
+}
+body{
+    background-color: aliceblue;
+}
+.img1{
+    height: 250px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+.menu-cards{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.footer{
+    background-color: grey;
+    height: 400px;
+    
+    position: relative;
+    }
+.frame{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+        width: 200px;
+        height: 200px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        overflow:hidden;
+}
+.card{
+    border-radius: 5%;
+}
+.img2{
+    height: 250px;
+border: 5px rgb(73, 202, 224) solid;
+}
+.input1{
+    border-width: 0px 0px 0px 5px;
+    margin-top: 10px;
+    border-color: chartreuse;
+}
+#carouselExampleCaptions{
+    margin-top:70px ;
+}
+/*mobile*/
+@media(max-width: 800px) {
+    .img1{
+       max-height: 150px;
+    }
+  }
+/*laptop*/  
+  @media(min-width: 800px) {
+    #carouselExampleCaptions{
+        margin-top:60px ;
+    } 
+    body{
+        overflow-x: hidden !important;
+    }
+}
+#container{
+    background-image: image("https://res.cloudinary.com/dqxpziuie/image/upload/v1593344936/food/photo-of-vegetable-salad-in-bowls-1640770_cbxcog.jpg");
+
+}
+body{
+    overflow-x: hidden !important;
+}
+@media(max-width: 800px) {
+    .fixed-top{
+        overflow-x: hidden;
+        max-width: 100%;
+    
+    }
+
+}
