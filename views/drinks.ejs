@@ -1,10 +1,11 @@
+<!--page conatin list of all drinks-->
 <html>
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <script>
-    window.onload=function(){
+    window.onload = function () {
       AOS.init();
     }
   </script>
@@ -19,8 +20,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <link rel="stylesheet" href="style.css">
 
 </head>
@@ -30,10 +31,21 @@
     <div class="collapse" id="navbarToggleExternalContent">
       <div style="background-color: greenyellow;">
         <!--collapse content here-->
-        <div style="display: flex;justify-content: center;">
-          <b><a href="/">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;</b>
-          <b><a href="/">gallery</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
-          <b><a href="/">contact us</a></b> 
+        <div style="display: flex;justify-content: left;">
+          <li>
+            <ul>
+              <h4><a href="/">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;</h4>
+            </ul>
+            <ul>
+
+              <h4><a href="/gallery">gallery</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+            </ul>
+            <ul>
+              <h4><a href="/contactus">contact us</a></h4>
+
+            </ul>
+          </li>
+
         </div>
       </div>
     </div>
@@ -41,21 +53,22 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
         aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-        <img src="https://img.icons8.com/color/48/000000/broccoli.png"/>
+        <img src="https://img.icons8.com/color/48/000000/broccoli.png" />
       </button>
       <button type="button" class="btn btn-primary" id="order">ORDER NOW</button>
     </nav>
   </div>
   <h2>logo</h2>
-    <div class="menu">
+  <div class="menu">
 
     <h1 class="menu-text">Drinks</h1>
     <!--menu-->
     <div class="menu-cards">
-    <div class="row row-cols-1 row-cols-md-3" >
-        <div class="col mb-4" >
-          <div class="card"  data-aos="zoom-in" style=" border-radius: 5%;">
-            <img src="images/drinks/alcoholic-beverages-bar-beverage-cocktail-605408.jpg" class="img1" class="card-img-top" alt="...">
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card" data-aos="zoom-in" style=" border-radius: 5%;">
+            <img src="images/drinks/alcoholic-beverages-bar-beverage-cocktail-605408.jpg" class="img1"
+              class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">mocktail</h5>
               <p class="card-text">fresh fruit mocktail</p>
@@ -63,7 +76,7 @@
           </div>
         </div>
         <div class="col mb-4">
-          <div class="card"  data-aos="zoom-in-left">
+          <div class="card" data-aos="zoom-in-left">
             <img src="images/drinks/bar-beverage-blur-cold-1148215.jpg" class="img1" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Lemon Tea</h5>
@@ -72,7 +85,7 @@
           </div>
         </div>
         <div class="col mb-4">
-          <div class="card"  data-aos="zoom-in-right">
+          <div class="card" data-aos="zoom-in-right">
             <img src="images/drinks/beverage-cold-drinks-juice-580610.jpg" class="img1" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">flavored juice</h5>
@@ -83,8 +96,9 @@
       </div>
       <div class="row row-cols-1 row-cols-md-3">
         <div class="col mb-4">
-          <div class="card"  data-aos="zoom-in-up">
-            <img src="images/drinks/clear-drinking-glass-with-brown-liquid-on-brown-wooden-table-3409351.jpg" class="img1" class="card-img-top" alt="...">
+          <div class="card" data-aos="zoom-in-up">
+            <img src="images/drinks/clear-drinking-glass-with-brown-liquid-on-brown-wooden-table-3409351.jpg"
+              class="img1" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">orange shake</h5>
               <p class="card-text">100% fresh orange shake</p>
@@ -92,8 +106,9 @@
           </div>
         </div>
         <div class="col mb-4">
-          <div class="card"  data-aos="zoom-in-down">
-            <img src="images/drinks/four-champagne-flutes-with-assorted-color-liquids-1028637.jpg" class="img1" class="card-img-top" alt="...">
+          <div class="card" data-aos="zoom-in-down">
+            <img src="images/drinks/four-champagne-flutes-with-assorted-color-liquids-1028637.jpg" class="img1"
+              class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">flavor mocktail</h5>
               <p class="card-text">mocktail with fresh flavor</p>
@@ -101,8 +116,9 @@
           </div>
         </div>
         <div class="col mb-4">
-          <div class="card"  data-aos="zoom-in">
-            <img src="images/drinks/four-clear-glass-drinking-cups-filled-with-orange-and-clear-1441122.jpg" class="img1" class="card-img-top" alt="...">
+          <div class="card" data-aos="zoom-in">
+            <img src="images/drinks/four-clear-glass-drinking-cups-filled-with-orange-and-clear-1441122.jpg"
+              class="img1" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Organic juice</h5>
               <p class="card-text">healthy juice made with fruits</p>
@@ -112,8 +128,9 @@
       </div>
       <div class="row row-cols-1 row-cols-md-3">
         <div class="col mb-4">
-          <div class="card"  data-aos="zoom-out">
-            <img src="images/drinks/glass-of-fruit-juice-next-to-a-bottle-with-flowers-and-clear-452740.jpg" class="img1" class="card-img-top" alt="...">
+          <div class="card" data-aos="zoom-out">
+            <img src="images/drinks/glass-of-fruit-juice-next-to-a-bottle-with-flowers-and-clear-452740.jpg"
+              class="img1" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Lichi shake</h5>
               <p class="card-text">shake made with fresh lichi</p>
@@ -131,7 +148,8 @@
         </div>
         <div class="col mb-4">
           <div class="card" data-aos="zoom-out-down">
-            <img src="images/drinks/group-of-people-doing-cheers-544961.jpg" class="img1" class="card-img-top" alt="...">
+            <img src="images/drinks/group-of-people-doing-cheers-544961.jpg" class="img1" class="card-img-top"
+              alt="...">
             <div class="card-body">
               <h5 class="card-title">appy fizz</h5>
               <p class="card-text">fresh appy fizz</p>
@@ -142,7 +160,8 @@
       <div class="row row-cols-1 row-cols-md-3">
         <div class="col mb-4">
           <div class="card" data-aos="zoom-out-left">
-            <img src="images/drinks/lime-juice-and-fruit-shake-on-glass-452737.jpg" class="img1" class="card-img-top" alt="...">
+            <img src="images/drinks/lime-juice-and-fruit-shake-on-glass-452737.jpg" class="img1" class="card-img-top"
+              alt="...">
             <div class="card-body">
               <h5 class="card-title">orange shake</h5>
               <p class="card-text">orange shake with pudina</p>
@@ -160,7 +179,8 @@
         </div>
         <div class="col mb-4">
           <div class="card" data-aos="zoom-out">
-            <img src="images/drinks/selective-focus-photography-of-pure-orange-juice-158053.jpg" class="img1" class="card-img-top" alt="...">
+            <img src="images/drinks/selective-focus-photography-of-pure-orange-juice-158053.jpg" class="img1"
+              class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">100% orange juice</h5>
               <p class="card-text">orange juice with no added items</p>
@@ -171,7 +191,8 @@
       <div class="row row-cols-1 row-cols-md-3">
         <div class="col mb-4">
           <div class="card" data-aos="zoom-in">
-            <img src="images/drinks/two-cup-of-juice-on-brown-wooden-table-top-1200348.jpg" class="img1" class="card-img-top" alt="...">
+            <img src="images/drinks/two-cup-of-juice-on-brown-wooden-table-top-1200348.jpg" class="img1"
+              class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Lemon juice</h5>
               <p class="card-text">fresh Lemon juice</p>
@@ -180,7 +201,7 @@
         </div>
         <div class="col mb-4">
           <div class="card" data-aos="zoom-out-left">
-            <img src="images/drinks/wine-glass-2992311.jpg"  class="img1" class="card-img-top" alt="...">
+            <img src="images/drinks/wine-glass-2992311.jpg" class="img1" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">shampine</h5>
               <p class="card-text">best quality shampine</p>
@@ -189,7 +210,8 @@
         </div>
         <div class="col mb-4">
           <div class="card" data-aos="zoom-in-right">
-            <img src="images/drinks/yellow-daises-in-clear-glass-vase-beside-bottle-1480543.jpg" class="img1" class="card-img-top" alt="...">
+            <img src="images/drinks/yellow-daises-in-clear-glass-vase-beside-bottle-1480543.jpg" class="img1"
+              class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">watermelon juice</h5>
               <p class="card-text">watermelon juice made with fresh watermelon</p>
@@ -197,49 +219,52 @@
           </div>
         </div>
       </div>
-      
-      </div>
+
     </div>
-</div>
-<hr style="width: 50%;">
-<!--buttons 2-->
-<div class="container" style="text-align: center;">
-<button type="button" class="btn btn-primary"><a href="/starter" style="color: aliceblue;">Starters</a></button>
-<button type="button" class="btn btn-primary"><a href="/menu" style="color: aliceblue;">main course</a></button>
-</div>
-<div style="max-width: 100%; overflow-x: hidden;">
-  <br>
-  <h1>____________________________________________________________________________________________</h1>
-</div>
-<!-- Footer -->
-<footer class="page-footer font-small  pt-4" style="background-color:aliceblue">
+  </div>
+  </div>
+  <hr style="width: 50%;">
+  <!--buttons 2-->
+  <div class="container" style="text-align: center;">
+    <button type="button" class="btn btn-primary"><a href="/starter" style="color: aliceblue;">Starters</a></button>
+    <button type="button" class="btn btn-primary"><a href="/menu" style="color: aliceblue;">main course</a></button>
+  </div>
+  <div style="max-width: 100%; overflow-x: hidden;">
+    <br>
+    <h1>____________________________________________________________________________________________</h1>
+  </div>
+  <!-- Footer -->
+  <footer class="page-footer font-small  pt-4" style="background-color:aliceblue">
 
     <!-- Footer Links -->
     <div class="container-fluid text-center text-md-left">
-  
+
       <!-- Grid row -->
       <div class="row">
-  
+
         <!-- Grid column -->
         <div class="col-md-6 mt-md-0 mt-3" style="display: flex;justify-content: center;">
-  
+
           <!-- Content -->
           <h5 class="text-uppercase"></h5>
           <div class="frame">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14721.4044106634!2d75.84705977542673!3d22.715187823810034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fda6b64b4587%3A0x18efed70880ee05a!2sNakoda%20Shri%20Veg%20Restaurant!5e0!3m2!1sen!2sin!4v1592322672681!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
-  
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14721.4044106634!2d75.84705977542673!3d22.715187823810034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fda6b64b4587%3A0x18efed70880ee05a!2sNakoda%20Shri%20Veg%20Restaurant!5e0!3m2!1sen!2sin!4v1592322672681!5m2!1sen!2sin"
+              width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+              tabindex="0"></iframe>
+          </div>
+
         </div>
         <!-- Grid column -->
-  
+
         <hr class="clearfix w-100 d-md-none pb-3">
-  
+
         <!-- Grid column -->
         <div class="col-md-3 mb-md-0 mb-3">
-  
+
           <!-- Links -->
           <h5 class="text-uppercase">opening hours</h5>
-  
+
           <ul class="list-unstyled">
             <li>
               <p href="#!">saturday to thusday</p>
@@ -254,16 +279,16 @@
               <a href="#!"></a>
             </li>
           </ul>
-  
+
         </div>
         <!-- Grid column -->
-  
+
         <!-- Grid column -->
         <div class="col-md-3 mb-md-0 mb-3">
-  
+
           <!-- Links -->
           <h5 class="text-uppercase">VISIT US</h5>
-  
+
           <ul class="list-unstyled">
             <li>
               <a href="#!">00 guru nanak colony</a>
@@ -278,25 +303,25 @@
               <a href="#" class="btn btn-primary">999999999</a>
             </li>
           </ul>
-  
+
         </div>
         <!-- Grid column -->
       </div>
       <br>
       <!-- Grid row -->
-  
+
     </div>
     <!-- Footer Links -->
-  
+
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3" style="background-color:#16c85d ;">© 2020 Copyright:
       <a>VM restaurant</a>
     </div>
     <!-- Copyright -->
-  
+
   </footer>
   <!-- Footer -->
-        
+
 
 </body>
 

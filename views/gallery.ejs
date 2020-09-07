@@ -1,51 +1,64 @@
+<!--galary page conatin images for showcase-->
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-    crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <link rel="stylesheet" href="style.css">
-  <script>
-    window.onload=function(){
-      AOS.init();
-    }
-  </script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        window.onload = function () {
+            AOS.init();
+        }
+    </script>
 </head>
 
 <body>
-  <div class="fixed-top">
-    <div class="collapse" id="navbarToggleExternalContent">
-      <div style="background-color: greenyellow;">
-        <!--collapse content here-->
-        <div style="display: flex;justify-content: center;">
-          <b><a href="/">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;</b>
-          <b><a href="/gallery">gallery</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
-          <b><a href="/contactus">contact us</a></b> 
+    <div class="fixed-top">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div style="background-color: greenyellow;">
+                <!--collapse content here-->
+                <div style="display: flex;justify-content: left;">
+                    <li>
+                        <ul>
+                            <h4><a href="/">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                        </ul>
+                        <ul>
+
+                            <h4><a href="/gallery">gallery</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                        </ul>
+                        <ul>
+                            <h4><a href="/contactus">contact us</a></h4>
+
+                        </ul>
+                    </li>
+
+                </div>
+            </div>
         </div>
-      </div>
+        <nav class="navbar navbar-light " style="background-color: greenyellow;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <img src="https://img.icons8.com/color/48/000000/broccoli.png" />
+            </button>
+            <button type="button" class="btn btn-primary" id="order">ORDER NOW</button>
+        </nav>
     </div>
-    <nav class="navbar navbar-light " style="background-color: greenyellow;">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
-        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        <img src="https://img.icons8.com/color/48/000000/broccoli.png"/>
-      </button>
-      <button type="button" class="btn btn-primary" id="order">ORDER NOW</button>
-    </nav>
-  </div>
-<br><br><br>
+    <br><br><br>
     <!--cards-->
     <h1 style="display: flex;justify-content: center;">Gallery</h1>
     <br>
@@ -53,133 +66,139 @@
         <div class="row row-cols-1 row-cols-md-3">
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/drinks/alcoholic-beverages-bar-beverage-cocktail-605408.jpg" class="img2"  alt="...">
+                    <img src="/images/drinks/alcoholic-beverages-bar-beverage-cocktail-605408.jpg" class="img2"
+                        alt="...">
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/cooking-dishes-herb-cckitchen-1109197.jpg" class="img2"  alt="...">
+                    <img src="/images/cooking-dishes-herb-cckitchen-1109197.jpg" class="img2" alt="...">
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/menu/allo sabji.jpg" class="img2"  alt="...">
+                    <img src="/images/menu/allo sabji.jpg" class="img2" alt="...">
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/starter/blueberries-cake-chocolate.jpg" class="img2"  alt="...">
+                    <img src="/images/starter/blueberries-cake-chocolate.jpg" class="img2" alt="...">
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/drinks/clear-drinking-glass-with-brown-liquid-on-brown-wooden-table-3409351.jpg" class="img2"  alt="...">
+                    <img src="/images/drinks/clear-drinking-glass-with-brown-liquid-on-brown-wooden-table-3409351.jpg"
+                        class="img2" alt="...">
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/menu/burger.jpg" class="img2"  alt="...">
+                    <img src="/images/menu/burger.jpg" class="img2" alt="...">
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/starter/chocolate-with-milted-chocolate-on-white-ceramic-plate-45202.jpg" class="img2"  alt="...">
+                    <img src="/images/starter/chocolate-with-milted-chocolate-on-white-ceramic-plate-45202.jpg"
+                        class="img2" alt="...">
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/drinks/alcoholic-beverages-bar-beverage-cocktail-605408.jpg" class="img2"  alt="...">
+                    <img src="/images/drinks/alcoholic-beverages-bar-beverage-cocktail-605408.jpg" class="img2"
+                        alt="...">
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/menu/fry panner.jpg" class="img2"  alt="...">
+                    <img src="/images/menu/fry panner.jpg" class="img2" alt="...">
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/starter/macaroni.jpg" class="img2"  alt="...">
+                    <img src="/images/starter/macaroni.jpg" class="img2" alt="...">
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/drinks/yellow-daises-in-clear-glass-vase-beside-bottle-1480543.jpg" class="img2"  alt="...">
+                    <img src="/images/drinks/yellow-daises-in-clear-glass-vase-beside-bottle-1480543.jpg" class="img2"
+                        alt="...">
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/drinks/two-cup-of-juice-on-brown-wooden-table-top-1200348.jpg" class="img2"  alt="...">
+                    <img src="/images/drinks/two-cup-of-juice-on-brown-wooden-table-top-1200348.jpg" class="img2"
+                        alt="...">
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/menu/veg sabji.jpg" class="img2"  alt="...">
+                    <img src="/images/menu/veg sabji.jpg" class="img2" alt="...">
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/menu/rice.jpg" class="img2"  alt="...">
+                    <img src="/images/menu/rice.jpg" class="img2" alt="...">
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/menu/pizza.jpg" class="img2"  alt="...">
+                    <img src="/images/menu/pizza.jpg" class="img2" alt="...">
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/menu/idle samber.jpg" class="img2"  alt="...">
+                    <img src="/images/menu/idle samber.jpg" class="img2" alt="...">
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/starter/sushi.jpg" class="img2"  alt="...">
+                    <img src="/images/starter/sushi.jpg" class="img2" alt="...">
                 </div>
             </div>
 
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/starter/three-sushi.jpg" class="img2"  alt="...">
+                    <img src="/images/starter/three-sushi.jpg" class="img2" alt="...">
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/starter/delicious-dessert.jpg" class="img2"  alt="...">
+                    <img src="/images/starter/delicious-dessert.jpg" class="img2" alt="...">
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/drinks/group-of-people-doing-cheers-544961.jpg" class="img2"  alt="...">
+                    <img src="/images/drinks/group-of-people-doing-cheers-544961.jpg" class="img2" alt="...">
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/menu/puding.jpg" class="img2"  alt="...">
+                    <img src="/images/menu/puding.jpg" class="img2" alt="...">
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/drinks/beverage-cold-drinks-juice-580610.jpg" class="img2"  alt="...">
+                    <img src="/images/drinks/beverage-cold-drinks-juice-580610.jpg" class="img2" alt="...">
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/menu/corn sabji.jpg" class="img2"  alt="...">
+                    <img src="/images/menu/corn sabji.jpg" class="img2" alt="...">
                 </div>
             </div>
             <div class="col mb-4">
                 <div class="card" data-aos="zoom-out">
-                    <img src="/images/menu/food-french-fries-fries-catsup-115740.jpg" class="img2"  alt="...">
+                    <img src="/images/menu/food-french-fries-fries-catsup-115740.jpg" class="img2" alt="...">
                 </div>
             </div>
         </div>
-    </div>  
+    </div>
 
 
     </div>
     <div style="max-width: 100%; overflow-x: hidden;">
         <h1>___________________________________________________________________________________________</h1>
-      </div>
+    </div>
     <!-- Footer -->
     <footer class="page-footer font-small  pt-4" style="background-color:aliceblue">
 
